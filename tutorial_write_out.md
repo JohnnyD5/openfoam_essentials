@@ -21,3 +21,9 @@ Quickly clean all processor data:
 ```
 rm -r proc*
 ```
+# 2. Useful tutorials on recompile openfoam
+Change an existing solver to a new solver by changing the name:  
+<https://www.youtube.com/watch?v=MiUDCOhbQaM>
+
+Adding Passive Scalar Transport Equation to icoFoam  
+<https://www.youtube.com/watch?v=L94iYGvZr9Q>

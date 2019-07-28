@@ -1,4 +1,4 @@
-# 1. copy tutorials and run cavity
+# 1. Copy tutorials and run cavity
 ```
 cp -r /opt/openfoam6/OpenFOAM-6/tutorials/incompressible/icoFoam/cavity /work/zhizhong/
 ```
@@ -27,3 +27,17 @@ Change an existing solver to a new solver by changing the name:
 
 Adding Passive Scalar Transport Equation to icoFoam  
 <https://www.youtube.com/watch?v=L94iYGvZr9Q>
+
+Go to openFoam folder 
+```
+cd /opt/openfoam6/OpenFOAM-6
+```
+go to applications:
+```
+cd applications
+```
+```
+mkdir OFM11-training
+```
+Copy the icoFoam solver to OFM11-training
+cp -r /opt/openfoam6/OpenFOAM-6/applications/solvers/incompressible/icoFoam

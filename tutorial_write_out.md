@@ -13,3 +13,11 @@ Run simulation:
 ```
 icoFoam
 ```
+Quickly clean all generated files:
+```
+rm - r *.*
+```
+Quickly clean all processor data:
+```
+rm -r proc*
+```

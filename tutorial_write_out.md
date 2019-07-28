@@ -43,15 +43,25 @@ cd applications
 mkdir OFM11-training
 ```
 Copy the icoFoam solver to OFM11-training
-```cp -r /opt/openfoam6/OpenFOAM-6/applications/solvers/incompressible/icoFoam```
+```
+cp -r /opt/openfoam6/OpenFOAM-6/applications/solvers/incompressible/icoFoam
+```
 Change the name to passiveScalarIcoFoam
-```mv icoFoam/ passiveScalarIcoFoam```
+```
+mv icoFoam/ passiveScalarIcoFoam
+```
 Go to the passiveScalarIcoFoam folder
-```cd passiveScalarIcoFoam```
+```
+cd passiveScalarIcoFoam
+```
 Make changes to the make file
-``` cd Make```
-``` vim files```
-change `icoFoam.C` to `passiveScalarIcoFoam.C`
+``` 
+cd Make
+```
+``` 
+vim files
+```
+change `icoFoam.C` to `passiveScalarIcoFoam.C`  
 change `EXE = $(FOAM_APPBIN)/icoFoam` to `EXE = $(FOAM_USER_APPBIN)/passiveScalarIcoFoam`
 
 

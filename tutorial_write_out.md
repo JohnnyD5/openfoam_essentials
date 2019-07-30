@@ -61,7 +61,13 @@ cd Make
 ``` 
 vim files
 ```
+1. change `icoFoam.C` to `passiveScalarIcoFoam.C`  
+2. change `EXE = $(FOAM_APPBIN)/icoFoam` to `EXE = $(FOAM_USER_APPBIN)/passiveScalarIcoFoam`
+```
+cd ..
+```
 change `icoFoam.C` to `passiveScalarIcoFoam.C`  
-change `EXE = $(FOAM_APPBIN)/icoFoam` to `EXE = $(FOAM_USER_APPBIN)/passiveScalarIcoFoam`
-
+```
+mv icoFoam.C passiveScalarIcoFoam.C 
+```
 
